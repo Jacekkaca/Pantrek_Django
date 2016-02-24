@@ -1,0 +1,40 @@
+<style>
+   /* This CSS is just for presentational purposes. */
+   body {
+      font-size: 62.5%;
+      background-color: #777; }
+   #wrap {
+      font: 1.3em/1.3 Arial, Helvetica, sans-serif;
+      margin: 0 auto;
+      padding: 1em;
+	  display:inline-block; 
+	  width:100%;}
+   h1 {
+      font-size: 200%; }
+
+   /* This CSS is used for the Show/Hide functionality. */
+   .more {
+      display: none;
+	  margin:0;}
+   a.showLink, a.hideLink {
+      text-decoration: none;
+color: white;
+line-height: 35px;
+background: #6d0000;
+display: block;
+padding: 0 15px;
+	  }
+   a.hideLink { 
+	  }
+	  
+#additional-ratings a.showLink,#additional-ratings a.hideLink {
+background: transparent;
+	  }
+	  
+	   a.showLink.toggle, a.hideLink.toggle {
+      background:transparent;
+	  padding:0;
+	  }
+	  
+
+</style>
